@@ -1,0 +1,32 @@
+package ProgramaPrincipal_DadosDoFuncionario;
+
+import java.util.Scanner;
+
+import SubPrograma_DadosDoFuncionario.SubProgrmaDadosDoFuncionario;
+
+public class PrincipalDadosDoFuncionario {
+
+	public static void main(String[] args) {
+		
+		SubProgrmaDadosDoFuncionario funcionario = new SubProgrmaDadosDoFuncionario();
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe o nome do funcionário: ");
+		funcionario.nome = sc.next();
+		
+		System.out.println("Informe o salário bruto: ");
+		funcionario.salariobruto = sc.nextDouble();
+		
+		System.out.println("Informe o valor do imposto: ");
+		funcionario.imposto = sc.nextDouble();
+		
+		
+		System.out.print("Dados do funcionário: " + funcionario.nome + funcionario.salariobruto);
+		
+		
+		sc.close();
+
+	}
+
+}

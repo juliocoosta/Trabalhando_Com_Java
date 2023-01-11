@@ -1,0 +1,38 @@
+package SubPrograma;
+
+public class retangulo {
+	
+	public double largura;
+	public double altura;
+	
+	public double Area() {
+		double a =  largura * altura;
+		return a;
+	}
+	
+	public double Perimetro() {
+		double p = 2* (largura + altura);
+		return p;
+	}
+	
+	public double Diagonal() {
+		double d = Math.sqrt((Math.pow(largura, 2))+(Math.pow(altura, 2)));
+		return d;
+	}
+
+	public double getLargura() {
+		return largura;
+	}
+
+	public void setLargura(double largura) {
+		this.largura = largura;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+}

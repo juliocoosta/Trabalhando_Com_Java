@@ -1,0 +1,25 @@
+package Principal;
+
+import SubPrograma.retangulo;
+
+public class programa {
+
+	public static void main(String[] args) {
+		
+		retangulo r = new retangulo();
+		
+		retangulo r2 = new retangulo();
+		
+		r2.setAltura(5);
+		r.setLargura(10);
+		
+		System.out.println(r2.Area());
+		System.out.println("---------------");
+		System.out.println(r.Perimetro());
+		System.out.println("---------------");
+		System.out.println(r.Diagonal());
+		System.out.println("---------------");
+
+	}
+
+}

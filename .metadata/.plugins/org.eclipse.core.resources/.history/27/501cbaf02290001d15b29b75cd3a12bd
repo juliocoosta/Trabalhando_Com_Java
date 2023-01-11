@@ -1,0 +1,11 @@
+package DadosDeUmFuncionario;
+
+public class SubProgrmaDadosDoFuncionario {
+	
+	public String nome;
+	public double salariobruto;
+	public double imposto;
+	
+	
+
+}

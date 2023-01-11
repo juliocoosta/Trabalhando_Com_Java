@@ -1,0 +1,23 @@
+package SubPrograma;
+
+public class Retangulo {
+	
+	private double largura;
+	private double altura;
+	
+	public double Area() {
+		double a =  largura * altura;
+		return a;
+	}
+	
+	public double Perimetro() {
+		double p = 2* (largura + altura);
+		return p;
+	}
+	
+	public double Diagonal() {
+		double d = Math.sqrt((Math.pow(largura, 2))+(Math.pow(altura, 2)));
+		return d;
+	}
+
+}

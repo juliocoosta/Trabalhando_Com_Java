@@ -1,0 +1,10 @@
+package ProgramaPrincipal_DadosDoFuncionario;
+
+public class PrincipalDadosDoFuncionario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
