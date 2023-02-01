@@ -1,15 +1,15 @@
-package Terceiro_Exemplo_Usando_Metodos;
+package Quarto_Exemplo_Usando_Metodos_Estaticos;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import Metodos_Para_Terceiro_Exemplo.Metodos;
+import Metodos_Estaticos_Para_Quarto_Exemplo.Metodos_Estaticos_Programa4;
 
-public class Programa3 {
+
+
+public class Programa4 {
 
 	public static void main(String[] args) {
-		
-		Metodos m = new Metodos();
 		
 		Locale.setDefault(Locale.US);	
 		Scanner sc = new Scanner(System.in);
@@ -18,19 +18,17 @@ public class Programa3 {
 		System.out.println("Informe o valor:");
 		double raio = sc.nextDouble();
 		
-		double c = m.circuferencia(raio);
+		double c = Metodos_Estaticos_Programa4.circuferencia(raio);
 		
-		double v =m.volume(raio);
+		double v = Metodos_Estaticos_Programa4.volume(raio);
 		
 		System.out.println("Valor da Circuferência: " + c);
 		System.out.println("Valor do Volume: " + v);
-		System.out.println("Valor do PI: "+ m.PI);
+		System.out.println("Valor do PI: "+ Metodos_Estaticos_Programa4.PI);
 		
 		
 	sc.close();
 
-  }
+	}
 
 }
-
-
