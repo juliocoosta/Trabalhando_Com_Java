@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Exemplo1_Loja.Metodo_Para_Loja"><rhs name\="Exemplo1_Loja.Metodo_Para_Loja"/></lhs><lhs name\="Exemplo2_Lola_SobreCarga.Metodo_Para_Loja2"><rhs name\="Exemplo2_Lola_SobreCarga.Metodo_Para_Loja2"/></lhs><lhs name\="Exemplo1.Metodo_Para_loja_Encapsulamento"><rhs name\="Exemplo1.Metodo_Para_loja_Encapsulamento"/></lhs><lhs name\="Banco_Mags.Dados_Do_Cliente"><rhs name\="Banco_Mags.Dados_Do_Cliente"/></lhs></history>
 content_assist_number_of_computers=17
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.formatterprofiles.version=22

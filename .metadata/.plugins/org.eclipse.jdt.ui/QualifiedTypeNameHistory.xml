@@ -10,6 +10,10 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="Metodos_Para_Terceiro_Exemplo.Metodos"/>
     <fullyQualifiedTypeName name="Metodos_Estaticos_Para_Quarto_Exemplo.Metodos_Estaticos_Programa4"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Metodos.Metodos_Utilitario"/>
+    <fullyQualifiedTypeName name="Exemplo1_Loja.Metodo_Para_Loja"/>
+    <fullyQualifiedTypeName name="Exemplo2_Lola_SobreCarga.Metodo_Para_Loja2"/>
+    <fullyQualifiedTypeName name="Exemplo1.Metodo_Para_loja_Encapsulamento"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Banco_Mags.Dados_Do_Cliente"/>
 </qualifiedTypeNameHistroy>
